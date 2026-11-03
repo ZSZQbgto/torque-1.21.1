@@ -1,0 +1,41 @@
+{
+  "geometry": "geometry.default_player",
+  "animations": {
+    "idle": {
+      "clip": "idle",
+      "clock": "time"
+    },
+    "walk": {
+      "clip": "walk",
+      "clock": "walk_position"
+    },
+    "run": {
+      "clip": "run",
+      "clock": "walk_position"
+    },
+    "sneak": {
+      "clip": "animation.sneak",
+      "clock": "time"
+    },
+    "sneak_walk": {
+      "clip": "animation.sneak_walk",
+      "clock": "walk_position"
+    },
+    "fly": {
+      "clip": "animation.fly",
+      "clock": "time"
+    },
+    "hover": {
+      "clip": "animation.hover",
+      "clock": "time"
+    }
+  },
+  "items": {
+    "right": "rightItem",
+    "left": "leftItem"
+  },
+  "walkPositionPerCycle": 9.4333,
+  "hideVanilla": [
+    "cape"
+  ]
+}

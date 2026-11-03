@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": "Torque demo: resource-pack override of assets/torque/animations/player.animation.json (walk/run + item bones)"
+  }
+}
